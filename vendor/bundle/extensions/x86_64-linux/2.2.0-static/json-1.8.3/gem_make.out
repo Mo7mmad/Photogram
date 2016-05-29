@@ -1,0 +1,13 @@
+current directory: /home/mohammad/Desktop/rails/Photogram/vendor/bundle/gems/json-1.8.3/ext/json
+/usr/local/bin/ruby -r ./siteconf20160529-17029-hxj1ay.rb extconf.rb
+creating Makefile
+
+current directory: /home/mohammad/Desktop/rails/Photogram/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/mohammad/Desktop/rails/Photogram/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/mohammad/Desktop/rails/Photogram/vendor/bundle/gems/json-1.8.3/ext/json
+make "DESTDIR=" install
