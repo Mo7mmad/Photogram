@@ -1,0 +1,13 @@
+class #{migration_class_name}  ActiveRecord::Migration
+def self.up
+change_table :#{table_name} do |t|
+- attachment_names.each do |attachment|
+  t.attachment :#{attachment}
+end
+end
+
+def self.down
+- attachment_names.each do |attachment|
+  remove_attachment :#{table_name}, :#{attachment}
+end
+end
