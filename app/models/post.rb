@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+  acts_as_votable
   belongs_to :user
   has_attached_file :image
   has_many :comments, dependent: :destroy
