@@ -6,6 +6,8 @@ gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'devise'
 gem 'html2haml'
+gem 'kaminari', '~> 0.16.3'
+gem 'jquery-turbolinks'
 
 gem 'rails', '4.2.6'
 gem 'sqlite3'
