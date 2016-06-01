@@ -9,5 +9,5 @@ class Post < ActiveRecord::Base
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 
   validates :user_id, presence: true
-
+  scope :of_followed_users, -> (following_users) { where user_id: following_users }  
 end

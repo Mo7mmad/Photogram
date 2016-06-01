@@ -11,6 +11,10 @@ def liked_post(post)
   'glyphicon-heart-empty'
 end
 
+def browse
+  @posts = Post.all.order('created_at DESC').page params[:page]
+end  
+
 private
 
 def list_likers(votes)

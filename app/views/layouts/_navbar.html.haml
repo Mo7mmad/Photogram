@@ -20,7 +20,8 @@
                 = render current_user.notifications.order('created_at DESC').last(5)
                 %li.divider{ role: 'separator' }
                 %li.text-center= link_to 'View All', notifications_path
-
+          %li
+            = link_to "Browse Posts", browse_posts_path
           %li
             = link_to "New Post", new_post_path
           %li
